@@ -68,6 +68,7 @@ const Result = () => {
           <p
             onClick={() => {
               setIsImageLoaded(false);
+              setInput("");
             }}
             className="bg-transparent border border-zinc-900 text-black px-8 py-3 rounded-full cursor-pointer"
           >
